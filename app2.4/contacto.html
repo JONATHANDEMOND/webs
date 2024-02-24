@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Academia de Idiomas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Información de la Academia</h2>
+            <p><strong>Dirección:</strong> Calle Amazonas, Número 1234, Ciudad Ficticia</p>
+            <p><strong>Teléfono:</strong> +593995373094</p>
+            <p><strong>Correo Electrónico:</strong> info@academiaidiomasficticia.com</p>
+        </section>
+        <section>
+            <h2>Formulario de Inscripción</h2>
+            <form action="enviar_formulario.php" method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Academia de Idiomas </p>
+    </footer>
+</body>
+</html>
